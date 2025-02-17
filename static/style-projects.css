@@ -14,11 +14,12 @@ body {
 
 .navbar {
   color: #ffffff !important;
+  font-size: 2rem;
   background-color: var(--main-color);
 }
 
 .navbar-band {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: bold;
   color: #ffffff;
 }
@@ -45,22 +46,6 @@ body {
   color: #90caf9;
 }
 
-.content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: var(--second-color);
-  color: #ffffff;
-  text-align: center;
-  padding: 2rem;
-}
-
-.content li {
-  padding: 10px;
-  font-size: 20px;
-}
-
 .about {
   max-width: 600px;
 }
@@ -71,7 +56,7 @@ body {
 }
 
 .about-role {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin: 1rem 0;
 }
 
@@ -148,12 +133,6 @@ body {
   grid-gap: 20px;
 }
 
-@media (max-width: 768px) {
-  .gallery {
-    grid-template-columns: 1fr;
-  }
-}
-
 .gallery img {
   cursor: pointer;
   transition: transform 0.2s;
@@ -169,28 +148,28 @@ body {
 }
 
 .modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .modal-content {
-  background-color: var(--dark-color);
-  margin: 15% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  border-radius: 15px;
-  width: 50%;
-  text-align: center;
-  justify-content: flex-start;
-  font-size: 20px;
-  cursor: pointer;
+    background-color: var(--dark-color);
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 15px;
+    width: 50%;
+    text-align: center;
+    justify-content: flex-start;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .modal-content h1 {
@@ -199,46 +178,36 @@ body {
 }
 
 .close-button {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .close-button:hover,
 .close-button:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 #modalImage {
-  width: 265px;
-  height: auto;
+    width: 265px;
+    height: auto;
 }
 
 /* Code CSS for about.html */
 
-.content-introduction {
-  display: flex;
-  background-color: var(--second-color);
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  height: auto;
-}
-
 .about-author {
-  flex-direction: row;
+  display: flex;
+  align-items: center;
   gap: 2em;
-  max-width: 100%;
-  width: 90%;
-  height: auto;
+  height: 700px;
   background: var(--hover-color);
   padding: 2em;
+  width: 1200px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  margin: 0 auto;
 }
 
 .author-img {
@@ -263,7 +232,6 @@ body {
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 1em;
-  color: #ffffff;
 }
 
 .info a {
@@ -322,7 +290,6 @@ body {
   text-align: center;
   background-color: var(--second-color);
   color: #ffffff;
-  min-height: 100vh;
   height: auto;
 }
 
